@@ -13,12 +13,10 @@
 - [Links](#links)
 
 ## Project Description
-Write a short description of your project. Write 1-2 sentences about what what you chose to build and why. 
 I choose to build a risk game because it's game that I used to play when I was yound with my cousins. It remains me
 lots of amazing evening.
 
 ## Rules
-Describe briefly the rules of the game you chose. 
 Risk is a strategy board game of diplomacy, conflict and conquest for two to six players.
 The goal of the game is to conquer the world by occupying all territories on the board.
 Every player has an army in order to conquer territory.
@@ -38,7 +36,6 @@ What does your repository look like? Explain your folder and file structure.
 We both fork our repository and add the only file which contain the code to our repository
 
 ## Links
-Include links to your repository, slides and trello/kanban board. Feel free to include any other links associated with your project. 
-
+ 
 [https://github.com/Eldiias/248_Repo/tree/master/Projects/mini-project-1/your-project](https://github.com/)  
 [Slides](https://slides.com/)   
