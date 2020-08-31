@@ -37,5 +37,4 @@ We both fork our repository and add the only file which contain the code to our 
 
 ## Links
  
-[https://github.com/Eldiias/248_Repo/tree/master/Projects/mini-project-1/your-project](https://github.com/)  
-[Slides](https://slides.com/)   
+https://github.com/geoffroydelaroche/248_Repo/blob/master/Projects/mini-project-1/your-project/README.md
