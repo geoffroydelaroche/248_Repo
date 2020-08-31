@@ -28,12 +28,11 @@ limit 3;
 #Challenge 4
 select a.au_id as 'AUTHOR ID', a.au_lname as 'LAST NAME', a.au_fname as 'FIRST NAME', count(s.qty) as 'Total'
 from authors a
-inner join titleauthor ta on a.au_id = ta.au_id
-inner join titles t on ta.title_id = t.title_id
-inner join sales s on t.title_id = s.title_id
+left join titleauthor ta on a.au_id = ta.au_id
+left join titles t on ta.title_id = t.title_id
+left join sales s on t.title_id = s.title_id
 group by a.au_id
-order by count(s.qty)
-limit 23;
+order by count(s.qty) desc;
 
 
 
