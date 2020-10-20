@@ -1,0 +1,982 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.20.0801.1333                               -->
+<workbook source-build='2020.3.0 (20203.20.0801.1333)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Life expectancy' inline='true' name='federated.1kt2vko0v1ayab14ygqmy0p3g34d' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Life expectancy' name='textscan.1cqk59k1g5i0fx1etdzao1n7pxsc'>
+            <connection class='textscan' directory='/Users/Jeff/Ironhack/248_Repo/Projects/Regression analysis' filename='Life expectancy.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1cqk59k1g5i0fx1etdzao1n7pxsc' name='Life expectancy.csv' table='[Life expectancy#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='fr_FR' separator='/'>
+            <column datatype='string' name='Country' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='string' name='Status' ordinal='2' />
+            <column datatype='real' name='Life expectancy ' ordinal='3' />
+            <column datatype='real' name='Adult Mortality' ordinal='4' />
+            <column datatype='integer' name='infant deaths' ordinal='5' />
+            <column datatype='real' name='Alcohol' ordinal='6' />
+            <column datatype='real' name='percentage expenditure' ordinal='7' />
+            <column datatype='real' name='Hepatitis B' ordinal='8' />
+            <column datatype='integer' name='Measles ' ordinal='9' />
+            <column datatype='real' name='BMI ' ordinal='10' />
+            <column datatype='integer' name='under-five deaths ' ordinal='11' />
+            <column datatype='real' name='Polio' ordinal='12' />
+            <column datatype='real' name='Total expenditure' ordinal='13' />
+            <column datatype='real' name='Diphtheria ' ordinal='14' />
+            <column datatype='real' name=' HIV/AIDS' ordinal='15' />
+            <column datatype='real' name='GDP' ordinal='16' />
+            <column datatype='real' name='Population' ordinal='17' />
+            <column datatype='real' name='thinness  1-19 years' ordinal='18' />
+            <column datatype='real' name='thinness 5-9 years' ordinal='19' />
+            <column datatype='real' name='Income composition of resources' ordinal='20' />
+            <column datatype='real' name='Schooling' ordinal='21' />
+            <column datatype='real' name='Ladder score' ordinal='22' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1cqk59k1g5i0fx1etdzao1n7pxsc' name='Life expectancy.csv' table='[Life expectancy#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='fr_FR' separator='/'>
+            <column datatype='string' name='Country' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='string' name='Status' ordinal='2' />
+            <column datatype='real' name='Life expectancy ' ordinal='3' />
+            <column datatype='real' name='Adult Mortality' ordinal='4' />
+            <column datatype='integer' name='infant deaths' ordinal='5' />
+            <column datatype='real' name='Alcohol' ordinal='6' />
+            <column datatype='real' name='percentage expenditure' ordinal='7' />
+            <column datatype='real' name='Hepatitis B' ordinal='8' />
+            <column datatype='integer' name='Measles ' ordinal='9' />
+            <column datatype='real' name='BMI ' ordinal='10' />
+            <column datatype='integer' name='under-five deaths ' ordinal='11' />
+            <column datatype='real' name='Polio' ordinal='12' />
+            <column datatype='real' name='Total expenditure' ordinal='13' />
+            <column datatype='real' name='Diphtheria ' ordinal='14' />
+            <column datatype='real' name=' HIV/AIDS' ordinal='15' />
+            <column datatype='real' name='GDP' ordinal='16' />
+            <column datatype='real' name='Population' ordinal='17' />
+            <column datatype='real' name='thinness  1-19 years' ordinal='18' />
+            <column datatype='real' name='thinness 5-9 years' ordinal='19' />
+            <column datatype='real' name='Income composition of resources' ordinal='20' />
+            <column datatype='real' name='Schooling' ordinal='21' />
+            <column datatype='real' name='Ladder score' ordinal='22' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Life expectancy.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;fr_FR&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;/&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;fr_FR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Life expectancy.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Life expectancy.csv_100BD7E8D83E44B88DD893337AE60AD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Life expectancy.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Life expectancy.csv_100BD7E8D83E44B88DD893337AE60AD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Status]</local-name>
+            <parent-name>[Life expectancy.csv]</parent-name>
+            <remote-alias>Status</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Life expectancy.csv_100BD7E8D83E44B88DD893337AE60AD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Life expectancy </remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Life expectancy ]</local-name>
+            <parent-name>[Life expectancy.csv]</parent-name>
+            <remote-alias>Life expectancy </remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Life expectancy.csv_100BD7E8D83E44B88DD893337AE60AD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Adult Mortality</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Adult Mortality]</local-name>
+            <parent-name>[Life expectancy.csv]</parent-name>
+            <remote-alias>Adult Mortality</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Life expectancy.csv_100BD7E8D83E44B88DD893337AE60AD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>infant deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[infant deaths]</local-name>
+            <parent-name>[Life expectancy.csv]</parent-name>
+            <remote-alias>infant deaths</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Life expectancy.csv_100BD7E8D83E44B88DD893337AE60AD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alcohol</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Alcohol]</local-name>
+            <parent-name>[Life expectancy.csv]</parent-name>
+            <remote-alias>Alcohol</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Life expectancy.csv_100BD7E8D83E44B88DD893337AE60AD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>percentage expenditure</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[percentage expenditure]</local-name>
+            <parent-name>[Life expectancy.csv]</parent-name>
+            <remote-alias>percentage expenditure</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Life expectancy.csv_100BD7E8D83E44B88DD893337AE60AD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hepatitis B</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hepatitis B]</local-name>
+            <parent-name>[Life expectancy.csv]</parent-name>
+            <remote-alias>Hepatitis B</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Life expectancy.csv_100BD7E8D83E44B88DD893337AE60AD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Measles </remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Measles ]</local-name>
+            <parent-name>[Life expectancy.csv]</parent-name>
+            <remote-alias>Measles </remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Life expectancy.csv_100BD7E8D83E44B88DD893337AE60AD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BMI </remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[BMI ]</local-name>
+            <parent-name>[Life expectancy.csv]</parent-name>
+            <remote-alias>BMI </remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Life expectancy.csv_100BD7E8D83E44B88DD893337AE60AD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>under-five deaths </remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[under-five deaths ]</local-name>
+            <parent-name>[Life expectancy.csv]</parent-name>
+            <remote-alias>under-five deaths </remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Life expectancy.csv_100BD7E8D83E44B88DD893337AE60AD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Polio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Polio]</local-name>
+            <parent-name>[Life expectancy.csv]</parent-name>
+            <remote-alias>Polio</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Life expectancy.csv_100BD7E8D83E44B88DD893337AE60AD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total expenditure</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total expenditure]</local-name>
+            <parent-name>[Life expectancy.csv]</parent-name>
+            <remote-alias>Total expenditure</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Life expectancy.csv_100BD7E8D83E44B88DD893337AE60AD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Diphtheria </remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Diphtheria ]</local-name>
+            <parent-name>[Life expectancy.csv]</parent-name>
+            <remote-alias>Diphtheria </remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Life expectancy.csv_100BD7E8D83E44B88DD893337AE60AD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name> HIV/AIDS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ HIV/AIDS]</local-name>
+            <parent-name>[Life expectancy.csv]</parent-name>
+            <remote-alias> HIV/AIDS</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Life expectancy.csv_100BD7E8D83E44B88DD893337AE60AD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GDP</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GDP]</local-name>
+            <parent-name>[Life expectancy.csv]</parent-name>
+            <remote-alias>GDP</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Life expectancy.csv_100BD7E8D83E44B88DD893337AE60AD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population]</local-name>
+            <parent-name>[Life expectancy.csv]</parent-name>
+            <remote-alias>Population</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Life expectancy.csv_100BD7E8D83E44B88DD893337AE60AD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>thinness  1-19 years</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[thinness  1-19 years]</local-name>
+            <parent-name>[Life expectancy.csv]</parent-name>
+            <remote-alias>thinness  1-19 years</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Life expectancy.csv_100BD7E8D83E44B88DD893337AE60AD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>thinness 5-9 years</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[thinness 5-9 years]</local-name>
+            <parent-name>[Life expectancy.csv]</parent-name>
+            <remote-alias>thinness 5-9 years</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Life expectancy.csv_100BD7E8D83E44B88DD893337AE60AD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Income composition of resources</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Income composition of resources]</local-name>
+            <parent-name>[Life expectancy.csv]</parent-name>
+            <remote-alias>Income composition of resources</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Life expectancy.csv_100BD7E8D83E44B88DD893337AE60AD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Schooling</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Schooling]</local-name>
+            <parent-name>[Life expectancy.csv]</parent-name>
+            <remote-alias>Schooling</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Life expectancy.csv_100BD7E8D83E44B88DD893337AE60AD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ladder score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ladder score]</local-name>
+            <parent-name>[Life expectancy.csv]</parent-name>
+            <remote-alias>Ladder score</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Life expectancy.csv_100BD7E8D83E44B88DD893337AE60AD3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='hiv/Aids' datatype='real' name='[ HIV/AIDS]' role='measure' type='quantitative' />
+      <column caption='Bmi' datatype='real' name='[BMI ]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Diphtheria' datatype='real' name='[Diphtheria ]' role='measure' type='quantitative' />
+      <column caption='Life expectancy' datatype='real' name='[Life expectancy ]' role='measure' type='quantitative' />
+      <column caption='Measles' datatype='integer' name='[Measles ]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Status]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Life expectancy.csv' datatype='table' name='[__tableau_internal_object_id__].[Life expectancy.csv_100BD7E8D83E44B88DD893337AE60AD3]' role='measure' type='quantitative' />
+      <column caption='Infant Deaths' datatype='integer' name='[infant deaths]' role='measure' type='quantitative' />
+      <column caption='Percentage Expenditure' datatype='real' name='[percentage expenditure]' role='measure' type='quantitative' />
+      <column caption='Thinness  1-19 Years' datatype='real' name='[thinness  1-19 years]' role='measure' type='quantitative' />
+      <column caption='Thinness 5-9 Years' datatype='real' name='[thinness 5-9 years]' role='measure' type='quantitative' />
+      <column caption='Under-Five Deaths' datatype='integer' name='[under-five deaths ]' role='measure' type='quantitative' />
+      <column-instance column='[Status]' derivation='None' name='[none:Status:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Status:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Developed&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Developing&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;France&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Life expectancy.csv' id='Life expectancy.csv_100BD7E8D83E44B88DD893337AE60AD3'>
+            <properties context=''>
+              <relation connection='textscan.1cqk59k1g5i0fx1etdzao1n7pxsc' name='Life expectancy.csv' table='[Life expectancy#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='fr_FR' separator='/'>
+                  <column datatype='string' name='Country' ordinal='0' />
+                  <column datatype='integer' name='Year' ordinal='1' />
+                  <column datatype='string' name='Status' ordinal='2' />
+                  <column datatype='real' name='Life expectancy ' ordinal='3' />
+                  <column datatype='real' name='Adult Mortality' ordinal='4' />
+                  <column datatype='integer' name='infant deaths' ordinal='5' />
+                  <column datatype='real' name='Alcohol' ordinal='6' />
+                  <column datatype='real' name='percentage expenditure' ordinal='7' />
+                  <column datatype='real' name='Hepatitis B' ordinal='8' />
+                  <column datatype='integer' name='Measles ' ordinal='9' />
+                  <column datatype='real' name='BMI ' ordinal='10' />
+                  <column datatype='integer' name='under-five deaths ' ordinal='11' />
+                  <column datatype='real' name='Polio' ordinal='12' />
+                  <column datatype='real' name='Total expenditure' ordinal='13' />
+                  <column datatype='real' name='Diphtheria ' ordinal='14' />
+                  <column datatype='real' name=' HIV/AIDS' ordinal='15' />
+                  <column datatype='real' name='GDP' ordinal='16' />
+                  <column datatype='real' name='Population' ordinal='17' />
+                  <column datatype='real' name='thinness  1-19 years' ordinal='18' />
+                  <column datatype='real' name='thinness 5-9 years' ordinal='19' />
+                  <column datatype='real' name='Income composition of resources' ordinal='20' />
+                  <column datatype='real' name='Schooling' ordinal='21' />
+                  <column datatype='real' name='Ladder score' ordinal='22' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Adult mortality / Life expectancy'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;Sheet Name&gt;&#10;</run>
+            <run fontsize='12'>There is a negative linear correlation between the adult mortality and life expectancy</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Life expectancy' name='federated.1kt2vko0v1ayab14ygqmy0p3g34d' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1kt2vko0v1ayab14ygqmy0p3g34d'>
+            <column datatype='real' name='[Adult Mortality]' role='measure' type='quantitative' />
+            <column caption='Life expectancy' datatype='real' name='[Life expectancy ]' role='measure' type='quantitative' />
+            <column-instance column='[Adult Mortality]' derivation='None' name='[none:Adult Mortality:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Life expectancy ]' derivation='None' name='[none:Life expectancy :qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[none:Adult Mortality:qk]' field-type='quantitative' max='766.85585937500002' min='40.0' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[none:Life expectancy :qk]' field-type='quantitative' max='91.75613496932516' min='50.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[none:Life expectancy :qk]</rows>
+        <cols>[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[none:Adult Mortality:qk]</cols>
+      </table>
+      <simple-id uuid='{9E7BEA5F-F1A6-4777-9145-5687DF5F2D39}' />
+    </worksheet>
+    <worksheet name='Income / Life expextancy'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;Sheet Name&gt;&#10;</run>
+            <run fontsize='12'>There is a positive linear correlation between the income level and life expectancy</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Life expectancy' name='federated.1kt2vko0v1ayab14ygqmy0p3g34d' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1kt2vko0v1ayab14ygqmy0p3g34d'>
+            <column datatype='real' name='[Income composition of resources]' role='measure' type='quantitative' />
+            <column caption='Life expectancy' datatype='real' name='[Life expectancy ]' role='measure' type='quantitative' />
+            <column-instance column='[Income composition of resources]' derivation='None' name='[none:Income composition of resources:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Life expectancy ]' derivation='None' name='[none:Life expectancy :qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[none:Income composition of resources:qk]' field-type='quantitative' max='0.99285468750000005' min='0.20000000000000001' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[none:Income composition of resources:qk]</rows>
+        <cols>[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[none:Life expectancy :qk]</cols>
+      </table>
+      <simple-id uuid='{CB00A58D-B2E7-4E20-B478-8F12060F2EAA}' />
+    </worksheet>
+    <worksheet name='Ladder score / Life expectancy'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;Sheet Name&gt;&#10;</run>
+            <run fontsize='12'>There is a positive linear correlation between the income level and life expectancy</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Life expectancy' name='federated.1kt2vko0v1ayab14ygqmy0p3g34d' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1kt2vko0v1ayab14ygqmy0p3g34d'>
+            <column datatype='real' name='[Ladder score]' role='measure' type='quantitative' />
+            <column caption='Life expectancy' datatype='real' name='[Life expectancy ]' role='measure' type='quantitative' />
+            <column-instance column='[Ladder score]' derivation='None' name='[none:Ladder score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Life expectancy ]' derivation='None' name='[none:Life expectancy :qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[none:Ladder score:qk]' field-type='quantitative' max='7.745443595009375' min='3.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[none:Ladder score:qk]</rows>
+        <cols>[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[none:Life expectancy :qk]</cols>
+      </table>
+      <simple-id uuid='{B187E590-0FF6-4D55-837B-6A2469FF378E}' />
+    </worksheet>
+    <worksheet name='Life expectancy / Status'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;Sheet Name&gt;&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Life expectancy' name='federated.1kt2vko0v1ayab14ygqmy0p3g34d' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1kt2vko0v1ayab14ygqmy0p3g34d'>
+            <column caption='Life expectancy' datatype='real' name='[Life expectancy ]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Status]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Life expectancy ]' derivation='Avg' name='[avg:Life expectancy :qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Status]' derivation='None' name='[none:Status:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[avg:Life expectancy :qk]' field-type='quantitative' max='85.451869346733673' min='60.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[none:Status:nk]' />
+              <text column='[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[avg:Life expectancy :qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[avg:Life expectancy :qk]</rows>
+        <cols>[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{5B1D8E35-F2D3-4D61-8FF8-CAF5363DC2BC}' />
+    </worksheet>
+    <worksheet name='Life expectancy evolution'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;Sheet Name&gt;&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Life expectancy' name='federated.1kt2vko0v1ayab14ygqmy0p3g34d' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1kt2vko0v1ayab14ygqmy0p3g34d'>
+            <column caption='Life expectancy' datatype='real' name='[Life expectancy ]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Life expectancy ]' derivation='Avg' name='[avg:Life expectancy :qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[avg:Life expectancy :qk]' included-values='in-range' />
+          <slices>
+            <column>[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[avg:Life expectancy :qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[avg:Life expectancy :qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <text column='[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[avg:Life expectancy :qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[avg:Life expectancy :qk]</rows>
+        <cols>[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{EE629BBB-D5D0-4FF5-B46E-03974DB891FC}' />
+    </worksheet>
+    <worksheet name='Life expectancy map'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;Sheet Name&gt;&#10;</run>
+            <run fontsize='12'>Highest life expectancy in Western Europe, North America and Australia</run>
+            <run>Æ&#10;</run>
+            <run fontsize='12'>Lowest life expectancy in Africa</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Life expectancy' name='federated.1kt2vko0v1ayab14ygqmy0p3g34d' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1kt2vko0v1ayab14ygqmy0p3g34d'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Life expectancy' datatype='real' name='[Life expectancy ]' role='measure' type='quantitative' />
+            <column-instance column='[Life expectancy ]' derivation='Avg' name='[avg:Life expectancy :qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[Longitude (generated)]' field-type='quantitative' max='22107248.093890239' min='-19856034.584851962' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[Latitude (generated)]' field-type='quantitative' max='18538512.450859345' min='-15263635.876180395' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[avg:Life expectancy :qk]' />
+              <lod column='[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[none:Country:nk]' />
+              <geometry column='[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[Latitude (generated)]</rows>
+        <cols>[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{3E38A7B4-6C83-4ADA-B276-6ADFF4C8B587}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Life expectancy'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='97740' id='8' param='horz' w='98504' x='748' y='1130'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='97740' id='6' w='83537' x='748' y='1130'>
+              <zone h='48870' id='3' name='Life expectancy evolution' w='83537' x='748' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='48870' id='5' name='Life expectancy / Status' w='83537' x='748' y='1130'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' fixed-size='160' h='97740' id='7' is-fixed='true' param='vert' w='14967' x='84285' y='1130'>
+              <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='9322' id='9' name='Life expectancy / Status' pane-specification-id='0' param='[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[none:Status:nk]' w='14967' x='84285' y='1130'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='11' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='97740' id='10' param='vert' w='98504' x='748' y='1130'>
+                <zone fixed-size='280' h='48870' id='5' is-fixed='true' name='Life expectancy / Status' w='83537' x='748' y='1130'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='9322' id='9' name='Life expectancy / Status' pane-specification-id='0' param='[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[none:Status:nk]' w='14967' x='84285' y='1130'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48870' id='3' is-fixed='true' name='Life expectancy evolution' w='83537' x='748' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{24F8A27C-DADD-453D-ADA8-99D1417A61D4}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Life expectancy map' tab-color='#4f779a'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[avg:Life expectancy :qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{D700E9B0-3D1B-4A6B-AF11-A606923AB530}' />
+    </window>
+    <window class='dashboard' name='Life expectancy' tab-color='#4f779a'>
+      <viewpoints>
+        <viewpoint name='Life expectancy / Status'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Life expectancy evolution'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{764E50AF-9D20-45C0-8D3E-AE0B9B06C9F9}' />
+    </window>
+    <window class='worksheet' name='Life expectancy evolution'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{315FD997-DED5-4B5B-8896-409C49558C4C}' />
+    </window>
+    <window class='worksheet' name='Life expectancy / Status'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1kt2vko0v1ayab14ygqmy0p3g34d].[none:Status:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9D0DAAA1-8735-4349-8FBA-C81AE5B7D19F}' />
+    </window>
+    <window class='worksheet' name='Adult mortality / Life expectancy'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D9363F06-3088-48B8-B3A2-03632834E77D}' />
+    </window>
+    <window class='worksheet' name='Income / Life expextancy'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2B072F8A-4C5B-48F4-99F6-0D9433B9909F}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Ladder score / Life expectancy'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{66317D9F-6AF8-4D4C-9DCB-122FB7D44DC7}' />
+    </window>
+  </windows>
+</workbook>
